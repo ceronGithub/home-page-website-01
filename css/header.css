@@ -1,0 +1,146 @@
+
+.header{
+    position: relative;    
+    min-height: 100vh;
+    width: 100%;
+    background-color: #FDFAF6;    
+}
+.header img{    
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    top: 25vh;
+    left: 14vw;
+    object-fit: cover;
+    z-index: 1;
+}
+.header .card{    
+    border-style: none;
+    position: relative;
+    float: right;
+    right: 100px;
+    top: 15vh;
+    border-radius: 10px;
+    width: 800px;
+    height: 500px;
+    background-color: transparent;           
+}
+
+.header .card .card-header{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    height: 43%;
+    width: 100%;
+    background-color: transparent;    
+}
+.card-header .card-header-content{
+    position: relative;
+    top: 10px;
+}
+.card-header ul {    
+    display: flex;
+    background: transparent;    
+    flex-direction: column;
+    text-decoration: none;
+    gap: 30px;
+}
+ul li p.name{
+    font-size: 90px;
+}
+
+ul li p.position{
+    font-size: 30px;
+}
+
+.card-body{    
+    position: relative;
+    height: 20vh;
+    width: 42vw;        
+    background-color: transparent;
+    padding: 50px 50px;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-footer{
+    position: relative;
+    background-color: transparent;
+    border-top: .5px solid gray;
+    width: 100%;
+    height: 10vh;
+    top: 35vh;    
+}
+
+.card-footer ul{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   padding: 0;
+   margin: 0;
+   transform: translate(-50%,-50%);
+   display: flex;
+}
+.card-footer ul li{
+    list-style: none;
+    margin: 0 15px;    
+}
+
+.card-footer ul li p{
+    width: 90px;
+    line-height: 40px;
+    font-size: 15px;
+}
+
+.card-footer ul li .fa-brands{
+    font-size: 20px;
+    line-height: 40px;
+    transition: .6s;
+    color: #000;
+}
+
+.card-footer ul li a{
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;    
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, .5);
+}
+
+.card-footer ul li a:hover{
+    transform: translate(0, -10px);
+}
+
+.card-footer ul li .fa-brands:hover{
+    color: #fff;
+}
+
+.card-footer ul li:nth-child(2) a:hover{
+    background-color: #1877F2;
+}
+
+.card-footer ul li:nth-child(3) a:hover{
+    background-color: #CD201F;
+}
+
+.card-footer ul li:nth-child(4) a:hover{
+    background-color: #EE1D51;
+}
+.card-footer ul li:nth-child(5) a:hover{
+    background-color: #0099FF;
+}
+.card-footer ul li:nth-child(6) a:hover{
+    background-color: #0A66C2;
+}
+
